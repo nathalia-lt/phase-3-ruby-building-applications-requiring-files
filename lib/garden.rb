@@ -1,4 +1,7 @@
 # Something is missing here
+require_relative './plant'
+#Here, we're indicating to Ruby that there is a file, plant.rb 
+#located in the same folder relative to the current file.
 
 class Garden
   attr_accessor :name
